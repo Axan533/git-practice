@@ -60,7 +60,7 @@ git config --global user.email "xzanlee@gmail.com"
 
 Windows Powershell Command:
 
-cd Desktop
+cd \~
 
 git clone https://github.com/Axan533/git-practice.git
 
@@ -79,15 +79,15 @@ cd git-practice
 
 Windows Powershell Command:                                   Windows Powershell Command:每日循環(約 1 分鐘，從 day 2 開始)
 
-notepad log.md                                                notepad log.md → 末尾加一行「日期 + 當天學習一句話」→ Ctrl+S → 關閉
+notepad log.md (儲存在--C:\\Users\\xzan\\git-practice\\log.md)    cd \~\\git-practice
 
-git add .                                                     git add .
+git add .                                                     notepad log.md → 末尾加一行「日期 + 當天學習一句話」→ Ctrl+S → 關閉 (種開啟方式--notepad \~\\git-practice\\log.md)
 
-git commit -m "day 1: 第一次設定完成"                          git commit -m "day N: 一句話描述"
+git commit -m "day 1: 第一次設定完成"                          git add .
 
-git push                                                      git push
+git push                                                      git commit -m "day N: 一句話描述"
 
-
+&#x20;                                                             git push
 
 成功驗證（3 個檢查點）
 
@@ -103,4 +103,14 @@ fatal: not a git repository...＝不在儲存庫資料夾內：先執行 cd git-
 
 * git : 無法辨識...＝Git 沒裝好：重開終端機再試，仍失敗就重裝
 * push 顯示 authentication failed＝彈窗時登錯帳號：重新彈窗登入正確帳號
+
+
+
+下一步三選一（上題未答）
+
+1. 先穩一週每日循環：把三步練成肌肉記憶
+2. 繼續學 Branch → PR → CI：補完協作四件套
+3. VS Code 圖形界面操作 Git：左側 Source Control 面板，滑鼠完成 add/commit/push
+
+
 
