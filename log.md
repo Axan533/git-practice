@@ -94,6 +94,7 @@ git push                                                      git commit -m "day
 * 終端機顯示 main -> main 字樣
 * 重新整理 GitHub 網頁的 git-practice → 看到 log.md 出現
 * 個人主頁貢獻圖「今天的格子」變綠（最多延遲幾分鐘）
+* 自己驗證歷史完整性 Windows Powershell Command: git log --oneline
 
 
 
@@ -111,6 +112,7 @@ fatal: not a git repository...＝不在儲存庫資料夾內：先執行 cd git-
 1. 先穩一週每日循環：把三步練成肌肉記憶
 2. 繼續學 Branch → PR → CI：補完協作四件套
 3. VS Code 圖形界面操作 Git：左側 Source Control 面板，滑鼠完成 add/commit/push
+4. 開始寫 Python 練習檔：放進 git-practice，一邊練 Python 一邊練 Git
 
 
 
