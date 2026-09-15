@@ -116,3 +116,5 @@ fatal: not a git repository...＝不在儲存庫資料夾內：先執行 cd git-
 
 
 
+2026/09/16 Day 4: 第四天
+
