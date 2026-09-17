@@ -116,5 +116,4 @@ fatal: not a git repository...＝不在儲存庫資料夾內：先執行 cd git-
 
 
 
-2026/09/17 Day 5: 第五天的每日練習
-
+2026/09/18 Day 6: 第六天的每日練習 VS Code
