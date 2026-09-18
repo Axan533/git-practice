@@ -87,7 +87,27 @@ git commit -m "day 1: 第一次設定完成"                          git add .
 
 git push                                                      git commit -m "day N: 一句話描述"
 
-&#x20;                                                             git push
+按 Ctrl+` VS Code 開終端機(command 窗)                         git push
+
+cd \~\\git-practice                     第 1 行：\~ 自動等於你的家目錄，不用手打用户名，不會走錯
+
+dir                                   第 2 行：dir 列出內容＝裁判。看到 log.md、README.md＝真庫確認；若沒這兩個檔案＝停下來截圖給我
+
+code .                                第 3 行：把「這個資料夾」開成 VS Code 工作區＝保證開對
+
+終於正確狀態 ✓（三件套齊了）
+
+* Message 輸入框 ✓、Commit 按鈕 ✓、Changes 列出 log.md（M、徽章 1） ✓
+* Graph 顯示 Initial＋day 1～5＝倉庫連線正常
+
+GUI 收下（四次點擊）
+
+1. 滑鼠移到 log.md → 點 + → 檔案移入 Staged Changes（＝git add）
+2. 點 Message 輸入框 → 輸入 day 6: 每日練習 VS Code
+3. 點藍色 ✓ Commit（＝git commit）
+4. 點 Sync Changes 按鈕（或左下狀態列 main\* 旁的 ⟳／1↑ 圖示）（＝git push）若彈確認視窗：點 OK
+
+
 
 成功驗證（3 個檢查點）
 
@@ -116,4 +136,5 @@ fatal: not a git repository...＝不在儲存庫資料夾內：先執行 cd git-
 
 
 
-2026/09/18 Day 6: 第六天的每日練習 VS Code
+2026/09/19 Day 7: 第七天的每日練習 Windows Powershell
+
