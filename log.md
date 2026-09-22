@@ -136,5 +136,5 @@ fatal: not a git repository...＝不在儲存庫資料夾內：先執行 cd git-
 
 
 
-2026/09/22 Day 10: 第十天的每日練習 VS Code
+2026/09/23 Day 11: 第十一天的每日練習 Windows Powershell
 
