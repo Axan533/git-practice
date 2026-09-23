@@ -136,5 +136,5 @@ fatal: not a git repository...＝不在儲存庫資料夾內：先執行 cd git-
 
 
 
-2026/09/23 Day 11: 第十一天的每日練習 Windows Powershell
-
+2026/09/24 Day 12: 第十二天的每日練習 VS Code
+2026-09-24 Day 12: 第一支 Python 練習檔 calc.py（class 版複利）
