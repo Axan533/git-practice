@@ -1,5 +1,7 @@
-class CompoundInterest:                          # Category: Financial Calculation
-    def __init__(self, principal, rate, years):  # Constructor method to initialize the principal, rate, and years
+class CompoundInterest:
+    """Calculate compound interest year by year."""
+
+    def __init__(self, principal, rate, years):
         self.principal = principal   # Principal amount
         self.rate = rate             # Annual interest rate
         self.years = years           # Number of years
@@ -11,5 +13,8 @@ class CompoundInterest:                          # Category: Financial Calculati
             print(f"Year {year}: {amount:.2f} Yuan")
 
 
-if __name__ == "__main__":                        # Entry point of the program
-    CompoundInterest(10000, 0.05, 3).calculate()
+if __name__ == "__main__":
+    principal = float(input("Enter principal: "))
+    rate = float(input("Enter annual rate (e.g. 0.05): "))
+    years = int(input("Enter years: "))
+    CompoundInterest(principal, rate, years).calculate()
