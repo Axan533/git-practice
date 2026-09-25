@@ -12,6 +12,8 @@ class CompoundInterest:
             amount = amount * (1 + self.rate)
             print(f"Year {year}: {amount:.2f} Yuan")
 
+        print("09/26/2026 Git Practice 4:05 AM")
+
 
 if __name__ == "__main__":
     principal = float(input("Enter principal: "))
