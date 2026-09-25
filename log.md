@@ -136,5 +136,5 @@ fatal: not a git repository...＝不在儲存庫資料夾內：先執行 cd git-
 
 
 
-2026/09/24 Day 13: 第十三天的每日練習 VS Code
-2026-09-24 Day 13: 第二支 Python 練習檔 calc.py（class 版複利）
+2026/09/26 Day 14: 第十四天的每日練習 VS Code
+2026-09-26 Day 14: 第三支 Python 練習檔 calc.py（class 版複利）
