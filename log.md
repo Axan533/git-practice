@@ -136,5 +136,5 @@ fatal: not a git repository...＝不在儲存庫資料夾內：先執行 cd git-
 
 
 
-2026/09/30 Day 19: 第十九天的每日練習
-2026-09-30 Day 6: 第六支 Python 練習檔 calc.py（class 版複利）
+2026/10/01 Day 19: 第十九天的每日練習
+2026-10-01 Day 8: 第八支 Python 練習檔 calc.py（class 版複利）
