@@ -12,7 +12,7 @@ class CompoundInterest:
             amount = amount * (1 + self.rate)
             print(f"Year {year}: {amount:.2f} Yuan")
 
-        print("10/19/2026 Git Practice 03:02 AM")
+        print("10/20/2026 Git Practice 05:18 AM")
 
 
 if __name__ == "__main__":
